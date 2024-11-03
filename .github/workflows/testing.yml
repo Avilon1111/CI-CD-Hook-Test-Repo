@@ -31,4 +31,4 @@ jobs:
           pip install -r requirements.txt
       - name: Test application
         run: |
-          mypy
+          mypy .\main.py
