@@ -32,4 +32,4 @@ jobs:
           pip install mypy
       - name: Test application
         run: |
-          mypy
+          mypy main.py
